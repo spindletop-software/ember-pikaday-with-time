@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-pikaday',
+  name: 'ember-pikaday-with-time',
 
   included: function(app) {
     this._super.included(app);
