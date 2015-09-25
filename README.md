@@ -1,6 +1,6 @@
-# ember-pikaday [![Build Status](https://travis-ci.org/edgycircle/ember-pikaday.svg)](https://travis-ci.org/edgycircle/ember-pikaday)
+# ember-pikaday-with-time [![Build Status](https://travis-ci.org/joshuairl/ember-pikaday-with-time.svg)](https://travis-ci.org/joshuairl/ember-pikaday-with-time)
 
-ember-pikaday is an addon that can be installed with Ember CLI. It gives you a datepicker input component that can be used in your Ember.js application. Pikaday and Moment.js are used in the background so they are added as Bower dependencies to your application.
+ember-pikaday-with-time is an addon that can be installed with Ember CLI. It gives you a datepicker input component that can be used in your Ember.js application. Pikaday and Moment.js are used in the background so they are added as Bower dependencies to your application.
 
 **The component provided by ember-pikaday is fully acceptance tested. It also provides test helpers to interact with the datepicker in your own acceptance tests.**
 
@@ -8,7 +8,7 @@ ember-pikaday is an addon that can be installed with Ember CLI. It gives you a d
 
 ```bash
 cd your-project-directory
-ember install ember-pikaday
+ember install ember-pikaday-with-time
 ```
 
 ## Usage
