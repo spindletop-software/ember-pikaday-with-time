@@ -2,13 +2,16 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-pikaday-with-time',
+  name: 'ember-pikaday',
 
-  included: function(app) {
-    this._super.included(app);
-
-    app.import(app.bowerDirectory + '/moment/moment.js');
-    app.import(app.bowerDirectory + '/pikaday/pikaday.js');
-    app.import(app.bowerDirectory + '/pikaday/css/pikaday.css');
+  options: {
+    nodeAssets: {
+      pikaday: {
+        import: [
+          { enabled: process.env.EMBER_CLI_FASTBOOT !== 'true', path: 'pikaday.js' },
+          'css/pikaday.css'
+        ]
+      }
+    }
   }
 };

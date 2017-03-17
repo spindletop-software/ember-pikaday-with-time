@@ -2,10 +2,6 @@ module.exports = {
   normalizeEntityName: function() {},
 
   afterInstall: function() {
-    var that = this;
-
-    return this.addBowerPackageToProject('pikaday-time').then(function() {
-        return that.addBowerPackageToProject('moment');
-    });
+    return this.addAddonToProject('ember-cli-moment-shim', '2.1.0');
   }
 };
