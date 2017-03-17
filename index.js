@@ -2,13 +2,16 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-pikaday',
+  name: 'ember-pikaday-with-time',
 
   options: {
     nodeAssets: {
-      pikaday: {
+      'pikaday-time': {
         import: [
-          { enabled: process.env.EMBER_CLI_FASTBOOT !== 'true', path: 'pikaday.js' },
+          {
+            enabled: process.env.EMBER_CLI_FASTBOOT !== 'true',
+            path:    'pikaday.js'
+          },
           'css/pikaday.css'
         ]
       }

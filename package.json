@@ -15,7 +15,10 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "authors": ["Joshua F. Rountree", "David Strauß"],
+  "authors": [
+    "Joshua F. Rountree",
+    "David Strauß"
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -41,6 +44,7 @@
   "keywords": [
     "ember-addon",
     "pikaday",
+    "pikaday-time",
     "time",
     "timepicker",
     "datepicker"
@@ -49,7 +53,7 @@
     "ember-cli-babel": "^5.1.6",
     "ember-cli-htmlbars": "^1.0.3",
     "ember-cli-node-assets": "^0.1.4",
-    "pikaday": "^1.4.0"
+    "pikaday-time": "1.3.3"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
